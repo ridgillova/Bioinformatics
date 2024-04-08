@@ -24,7 +24,7 @@ class Sequences:
     def __str__(self):
         return f'ID: {self.id}, Sequence: {self.seq}'
     
-    # define what to do when try to iterate over object
+    # define what to do when trying to iterate over object
 #    def __iter__(self):
 #        self.length = 0
 #        return self
@@ -66,7 +66,7 @@ class DNASequence(Sequences):
         return len(self.seq) // 3
     
 
-# create a calss for protein sequences
+# create a class for protein sequences
 class Proteins(Sequences):
 
     # attributes and methods inherited from superclass Sequence
